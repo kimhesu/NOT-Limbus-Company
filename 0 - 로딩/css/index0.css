@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'NEUE';
+  src: url('../../font/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TAG_MAKER';
+  src: url('../../font/tagmarker.ttf') format('truetype');
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul, li {list-style: none;}
+a {text-decoration: none; color: #000;}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    background-color: #310c0c;
+}
+
+.main_Screen {
+  position: relative;
+  height: 100vh;
+}
+
+.main_Screen p {
+  position: absolute;
+  font-family: 'TAG_MAKER';
+  letter-spacing: 1px;
+  font-size: 100px;
+  color: #FDD622;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 0 10px #FDD622;
+}
+
+img {
+  width: 100%;
+  height: 99.5%;
+  object-fit: cover;
+}
+
+a {
+  animation-delay: 2s;
+}
+
+@keyframes fadeinout {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.main_Text {
+  position: absolute;
+  width: 500px;
+  top: 812.5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeinout 2.5s ease-in-out infinite;
+}
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/main2.png") no-repeat center center;
+  background-size: cover;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.loading-gif {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  left: 1470px;
+  top: 820px;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+#footer {
+  position: fixed;
+  left: 775px;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+#footer address {
+  letter-spacing: 2px;
+  font-family: 'NEUE';
+  font-style: normal;
+}
