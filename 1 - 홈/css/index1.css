@@ -268,7 +268,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
 
     #brandVisual li img {
-        width: 100vw;
+        width: 100%;
     }
 
     #footer ul li a {
@@ -299,7 +299,7 @@ body {
     }
 
     #brandVisual li img {
-        width: 100vw;
+        width: 100%;
     }
 
     #footer {
@@ -309,4 +309,5 @@ body {
     .hamburger {
         display: block !important;
     }
+
 }
