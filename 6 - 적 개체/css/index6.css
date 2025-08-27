@@ -157,7 +157,7 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     #footer ul li a {
         font-size: 10px;
         /* 기본보다 작게 */
@@ -169,17 +169,6 @@ body {
         font-size: 12px;
     }
 
-    .hamburger {
-        display: none !important;
-    }
-
-    .side-menu {
-        display: none !important;
-    }
-}
-
-/* 모바일 이하 */
-@media (max-width: 768px) {
     #footer {
         display: none !important;
     }
