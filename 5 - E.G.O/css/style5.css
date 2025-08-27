@@ -271,7 +271,7 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     .limbus td {
         font-size: 13px;
@@ -290,29 +290,6 @@ body {
 
     #footer address {
         font-size: 12px;
-    }
-
-    .hamburger {
-        display: none !important;
-    }
-
-    .side-menu {
-        display: none !important;
-    }
-}
-
-/* 모바일 이하 */
-@media (max-width: 768px) {
-    
-    .limbus {
-        margin-bottom: -50px;
-    }
-
-    .limbus .sinner_empCard {
-        width: 100%;
-        display: block;
-        text-align: center;
-        font-size: 30px;
     }
 
     #footer {
