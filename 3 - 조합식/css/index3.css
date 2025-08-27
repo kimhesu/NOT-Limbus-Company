@@ -674,7 +674,7 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     .accordion-content .burn td,
     .accordion-content .bleeding td,
@@ -703,40 +703,6 @@ body {
 
     #footer address {
         font-size: 12px;
-    }
-
-    .hamburger {
-        display: none !important;
-    }
-
-    .side-menu {
-        display: none !important;
-    }
-}
-
-/* 모바일 이하 */
-@media (max-width: 768px) {
-
-    .accordion-content .burn td,
-    .accordion-content .bleeding td,
-    .accordion-content .vibration td,
-    .accordion-content .rupture td,
-    .accordion-content .silence td,
-    .accordion-content .breathing td,
-    .accordion-content .charge td,
-    .accordion-content .slashing td,
-    .accordion-content .penetrating td,
-    .accordion-content .blow td,
-    .accordion-content .universal td {
-        font-size: 20px;
-    }
-
-    .limbus {
-        margin-bottom: -50px;
-    }
-
-    .accordion-content img {
-        width: 75%;
     }
 
     #footer {
